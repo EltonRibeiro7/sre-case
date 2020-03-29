@@ -111,13 +111,16 @@ Components details related to the environment are described below. Some componen
 - **HOW TO USE**
 
   - **IMPORTANT:** Before continuing, please configure your docker machine with at least 4GB of RAM (the full stack consumes a lot :P)
+  - **IMPORTANT 2:** You will need to have internet access to docker, docker hub and thecatapi.com in order to get everything working fine.
   
-  Once you have installed docker and docker-compose, just go to the project root folder using bash (linux or mac), and type ```docker-compose up --build -d ```
+  Once you have installed docker and docker-compose, just go to the project root folder using bash (linux or mac), and type ```docker-compose up --build -d ```. On my lab it took about 10 minutes to start everything, **since it is a new environment, database is clean and syncronizer will populate it in about 3 minutes, so if you receive not found results, please wait... you can also watch syncronizer logs on kibana**
 
   More Examples:
   - Start in background: ```docker-compose up --build -d ```
   - Stop environment: ```docker-compose stop```
   - Remove everything: ```docker-compose down -v```
+  - Check status: ```docker-compose ps```
+  
 
   Troubleshooting:
   - I am using only high ports but ensure that you don't have services running on those ports otherwise docker-compose will fail to start.
