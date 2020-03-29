@@ -130,7 +130,7 @@ Components details related to the environment are described below. Some componen
 
 #### **SWAGGER**
 
-You can use swagger to discover every operation and option available on the API component
+You can use swagger to discover every operation and option available on the API component. **It also has the full api documentation including schemas**
 
 #### **POSTMAN**
 
