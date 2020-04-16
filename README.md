@@ -51,7 +51,7 @@ The solution is based on the following technology stack:
 ### **GETTING THIS PROJECT**
   I will send a copy of this project to you in an email attachment but if you don't receive it due to antispam restrictions, this repository is temporary public and you can clone it using the following command:
 
-  ``` git clone https://github.com/EltonRibeiro7/itau-sre-case.git ```
+  ``` git clone https://github.com/EltonRibeiro7/sre-challenge.git ```
 
 ### **DEVELOPMENT**
 
